@@ -1,0 +1,66 @@
+[2025-02-27 12:27:02] glpiphplog.WARNING: Test logger  
+[2025-02-27 12:34:23] glpiphplog.WARNING: Test logger  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\Proyectos\glpi\glpi\src\Session.php at line 747
+  Backtrace :
+  src\Session.php:747                                trigger_error()
+  inc\config.php:82                                  Session::loadLanguage()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 2077
+  Backtrace :
+  src\Html.php:2077                                  header()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 2215
+  Backtrace :
+  src\Html.php:2215                                  header()
+  src\Html.php:2080                                  Html::header_nocache()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 2216
+  Backtrace :
+  src\Html.php:2216                                  header()
+  src\Html.php:2080                                  Html::header_nocache()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 1116
+  Backtrace :
+  src\Html.php:1116                                  header()
+  src\Html.php:2086                                  Html::includeHeader()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 1120
+  Backtrace :
+  src\Html.php:1120                                  header()
+  src\Html.php:2086                                  Html::includeHeader()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 2215
+  Backtrace :
+  src\Html.php:2215                                  header()
+  src\Html.php:1124                                  Html::header_nocache()
+  src\Html.php:2086                                  Html::includeHeader()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
+[2025-02-27 12:39:20] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\Proyectos\glpi\glpi\src\Session.php:747) in C:\Proyectos\glpi\glpi\src\Html.php at line 2216
+  Backtrace :
+  src\Html.php:2216                                  header()
+  src\Html.php:1124                                  Html::header_nocache()
+  src\Html.php:2086                                  Html::includeHeader()
+  inc\config.php:93                                  Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
